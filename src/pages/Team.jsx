@@ -1,41 +1,9 @@
 import React from "react";
-
-const teams = [
-  {
-    id: 1,
-    name: "Kolkata Titans",
-    logo: "https://upload.wikimedia.org/wikipedia/en/4/41/Delhi_Capitals_Logo.svg",
-    players: 11,
-  },
-  {
-    id: 2,
-    name: "Howrah Warriors",
-    logo: "https://upload.wikimedia.org/wikipedia/en/2/25/Chennai_Super_Kings_Logo.svg",
-    players: 12,
-  },
-  {
-    id: 3,
-    name: "Tech United",
-    logo: "https://upload.wikimedia.org/wikipedia/en/4/41/Mumbai_Indians_Logo.svg",
-    players: 10,
-  },
-  {
-    id: 4,
-    name: "AI Avengers",
-    logo: "https://upload.wikimedia.org/wikipedia/en/d/d4/Kolkata_Knight_Riders_Logo.svg",
-    players: 13,
-  },
-  {
-    id: 5,
-    name: "Code Crusaders",
-    logo: "https://upload.wikimedia.org/wikipedia/en/2/2f/Rajasthan_Royals_Logo.svg",
-    players: 9,
-  },
-];
+import teams from "../assets/data/teams";
 
 const Teams = () => {
   return (
-    <section className="min-h-screen bg-[#111] text-white py-16 px-5 md:px-20">
+    <section className="h-[824px] bg-[#111] text-white py-16 px-5 md:px-20">
       <div className="text-center mb-10">
         <h1 className="text-3xl md:text-5xl font-extrabold text-amber-400">
           Teams

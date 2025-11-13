@@ -1,12 +1,130 @@
-// src/assets/data/matches.js
-import { teams } from "./teams"; // optional if you want to reference team objects
-
-// If you want date strings + time strings:
-export const matches = [
-    { id: 1, date: "2025-11-01", time: "14:00", teamA: "Kolkata Titans", teamB: "Howrah Warriors", scoreA: 102, scoreB: 98 },
-    { id: 2, date: "2025-11-01", time: "19:00", teamA: "Tech United", teamB: "AI Avengers", scoreA: 145, scoreB: 146 },
-    // ... ~18 items; use null for scoreA/scoreB if not played yet
-    { id: 18, date: "2025-11-09", time: "20:00", teamA: "Tech United", teamB: "Metro Mariners", scoreA: null, scoreB: null },
+const matches = [
+    {
+        id: 1,
+        date: "2025-11-10",
+        time: "14:00",
+        teamA: "Kolkata Titans",
+        teamB: "Howrah Warriors",
+    },
+    {
+        id: 2,
+        date: "2025-11-10",
+        time: "19:00",
+        teamA: "Tech United",
+        teamB: "AI Avengers",
+    },
+    {
+        id: 3,
+        date: "2025-11-11",
+        time: "15:00",
+        teamA: "Code Crusaders",
+        teamB: "Metro Mariners",
+    },
+    {
+        id: 4,
+        date: "2025-11-11",
+        time: "20:00",
+        teamA: "Royal Strikers",
+        teamB: "Storm Breakers",
+    },
+    {
+        id: 5,
+        date: "2025-11-12",
+        time: "14:00",
+        teamA: "Kolkata Titans",
+        teamB: "Tech United",
+    },
+    {
+        id: 6,
+        date: "2025-11-12",
+        time: "19:00",
+        teamA: "Howrah Warriors",
+        teamB: "AI Avengers",
+    },
+    {
+        id: 7,
+        date: "2025-11-13",
+        time: "16:00",
+        teamA: "Code Crusaders",
+        teamB: "Royal Strikers",
+    },
+    {
+        id: 8,
+        date: "2025-11-13",
+        time: "20:30",
+        teamA: "Metro Mariners",
+        teamB: "Storm Breakers",
+    },
+    {
+        id: 9,
+        date: "2025-11-14",
+        time: "13:00",
+        teamA: "AI Avengers",
+        teamB: "Code Crusaders",
+    },
+    {
+        id: 10,
+        date: "2025-11-14",
+        time: "18:30",
+        teamA: "Tech United",
+        teamB: "Royal Strikers",
+    },
+    {
+        id: 11,
+        date: "2025-11-15",
+        time: "15:00",
+        teamA: "Howrah Warriors",
+        teamB: "Metro Mariners",
+    },
+    {
+        id: 12,
+        date: "2025-11-15",
+        time: "20:00",
+        teamA: "Kolkata Titans",
+        teamB: "Storm Breakers",
+    },
+    {
+        id: 13,
+        date: "2025-11-16",
+        time: "14:00",
+        teamA: "Royal Strikers",
+        teamB: "Tech United",
+    },
+    {
+        id: 14,
+        date: "2025-11-16",
+        time: "19:00",
+        teamA: "Howrah Warriors",
+        teamB: "Code Crusaders",
+    },
+    {
+        id: 15,
+        date: "2025-11-17",
+        time: "16:00",
+        teamA: "Metro Mariners",
+        teamB: "Kolkata Titans",
+    },
+    {
+        id: 16,
+        date: "2025-11-17",
+        time: "20:30",
+        teamA: "Storm Breakers",
+        teamB: "AI Avengers",
+    },
+    {
+        id: 17,
+        date: "2025-11-18",
+        time: "15:30",
+        teamA: "Code Crusaders",
+        teamB: "Royal Strikers",
+    },
+    {
+        id: 18,
+        date: "2025-11-18",
+        time: "20:00",
+        teamA: "Tech United",
+        teamB: "Metro Mariners",
+    },
 ];
 
 export default matches;

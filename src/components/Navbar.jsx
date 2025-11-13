@@ -11,22 +11,6 @@ const links = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-
-  // close mobile menu when resizing to desktop
-  useEffect(() => {
-    const onResize = () => {
-      if (window.innerWidth >= 768) setOpen(false);
-    };
-    const onScroll = () => setScrolled(window.scrollY > 30);
-
-    window.addEventListener("resize", onResize);
-    window.addEventListener("scroll", onScroll);
-    return () => {
-      window.removeEventListener("resize", onResize);
-      window.removeEventListener("scroll", onScroll);
-    };
-  }, []);
 
   const linkClass = ({ isActive }) =>
     `px-3 py-2 rounded-md text-sm font-semibold transition-colors ${
@@ -34,14 +18,19 @@ const Navbar = () => {
     }`;
 
   return (
-    <header className="w-full sticky top-0 left-0 z-30">
+    // <header className="w-full h-[10%] sticky top-0 left-0 z-30">
+    <header className="w-full h-full">
       <nav
-        className={`w-full flex items-center justify-between px-4 sm:px-6 md:px-12 py-3 transition-all backdrop-blur-sm ${
-          scrolled ? "bg-[#272626]/95 shadow-lg" : "bg-[#272626]/70"
-        }`}
+        className={`w-full h-full flex items-center justify-between px-4 sm:px-6 md:px-12 py-3 transition-all  bg-zinc-500`}
         role="navigation"
         aria-label="Main navigation"
       >
+        {/* <nav
+        className={`w-full flex items-center justify-between px-4 sm:px-6 md:px-12 py-3 transition-all  bg-zinc-500`}
+        role="navigation"
+        aria-label="Main navigation"
+      > */}
+
         {/* Brand */}
         <div className="flex items-center gap-3">
           <div className="shrink-0">
@@ -137,3 +126,25 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// Navbar.jsx (only relevant parts shown)
+// const Navbar = () => {
+//   const [open, setOpen] = useState(false);
+
+//   return (
+//     <header className="w-full h-full">
+//       {" "}
+//       {/* h-full so it fills 10vh */}
+//       <nav
+//         className="w-full h-full flex items-center justify-between px-4 sm:px-6 md:px-12 transition-all bg-zinc-500"
+//         role="navigation"
+//         aria-label="Main navigation"
+//       >
+//         {/* Brand + links (keep as-is) */}
+//       </nav>
+//       {/* mobile menu panel... */}
+//     </header>
+//   );
+// };
+
+// export default Navbar;
