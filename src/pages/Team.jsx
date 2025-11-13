@@ -3,7 +3,7 @@ import teams from "../assets/data/teams";
 
 const Teams = () => {
   return (
-    <section className="h-[824px] bg-[#111] text-white py-16 px-5 md:px-20">
+    <section className="min-h-full bg-[#111] text-white py-16 px-5 md:px-20">
       <div className="text-center mb-10">
         <h1 className="text-3xl md:text-5xl font-extrabold text-amber-400">
           Teams

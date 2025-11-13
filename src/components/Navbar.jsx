@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     // <header className="w-full h-[10%] sticky top-0 left-0 z-30">
-    <header className="w-full h-full">
+    <header className="w-full h-full z-30 sticky top-0 letf-0">
       <nav
         className={`w-full h-full flex items-center justify-between px-4 sm:px-6 md:px-12 py-3 transition-all  bg-zinc-500`}
         role="navigation"
