@@ -13,7 +13,7 @@ const superStrikers = {
     players: [
         { id: 1, name: "Rit (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Manas (VC) ", yellowCards: 0, redCards: 0 },
-        { id: 3, name: " Ibnoon (GK)", yellowCards: 0, redCards: 0 },
+        { id: 3, name: "Ibnoon (GK)", yellowCards: 0, redCards: 0 },
         { id: 4, name: "Faisal", yellowCards: 0, redCards: 0 },
         { id: 5, name: "Wasim", yellowCards: 0, redCards: 0 },
         { id: 6, name: "Srijan", yellowCards: 0, redCards: 0 },

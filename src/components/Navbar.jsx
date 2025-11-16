@@ -13,22 +13,21 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const linkClass = ({ isActive }) =>
-    `px-3 py-2 rounded-md text-sm font-semibold transition-colors ${
-      isActive ? "bg-amber-400 text-[#111]" : "hover:bg-white/10"
+    `px-3 py-2 rounded-md text-sm font-semibold transition-colors  ${
+      isActive ? "bg-amber-400 text-black" : "hover:bg-white/10 text-white"
     }`;
 
   return (
     // <header className="w-full h-[10%] sticky top-0 left-0 z-30">
     <header className="w-full h-full z-30 sticky top-0 letf-0">
       <nav
-        className={`w-full h-full flex items-center justify-between px-4 sm:px-6 md:px-12 py-3 transition-all  bg-zinc-500`}
+        className={`w-full h-full flex items-center justify-between px-4 sm:px-6 md:px-12 py-3 transition-all  bg-[#272626]`}
         role="navigation"
         aria-label="Main navigation"
       >
         {/* Brand */}
         <NavLink className="flex items-center gap-3" to="/">
           <div className="shrink-0">
-            {/* Replace with <img src={logo} /> if you have a logo */}
             <div className="w-10 h-10 rounded-md bg-amber-400 flex items-center justify-center font-black text-[#111]">
               MSL
             </div>
@@ -105,7 +104,7 @@ const Navbar = () => {
               to={l.to}
               className={({ isActive }) =>
                 `block w-full ${
-                  isActive ? "bg-amber-400 text-[#111]" : "hover:bg-white/10"
+                  isActive ? "bg-amber-400 text-[#111]" : "hover:bg-white/10 "
                 } rounded-md px-3 py-2 text-sm font-semibold`
               }
               onClick={() => setOpen(false)}
@@ -120,25 +119,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// Navbar.jsx (only relevant parts shown)
-// const Navbar = () => {
-//   const [open, setOpen] = useState(false);
-
-//   return (
-//     <header className="w-full h-full">
-//       {" "}
-//       {/* h-full so it fills 10vh */}
-//       <nav
-//         className="w-full h-full flex items-center justify-between px-4 sm:px-6 md:px-12 transition-all bg-zinc-500"
-//         role="navigation"
-//         aria-label="Main navigation"
-//       >
-//         {/* Brand + links (keep as-is) */}
-//       </nav>
-//       {/* mobile menu panel... */}
-//     </header>
-//   );
-// };
-
-// export default Navbar;

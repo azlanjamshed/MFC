@@ -13,7 +13,7 @@ const chunchun = {
     players: [
         { id: 1, name: "Parthib (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Tomojit (VC)", yellowCards: 0, redCards: 0 },
-        { id: 3, name: " Souvik (GK)", yellowCards: 0, redCards: 0 },
+        { id: 3, name: "Souvik (GK)", yellowCards: 0, redCards: 0 },
         { id: 4, name: "Rupam ", yellowCards: 0, redCards: 0 },
         { id: 5, name: "Rupam Jr.", yellowCards: 0, redCards: 0 },
         { id: 6, name: "Mayank", yellowCards: 0, redCards: 0 },

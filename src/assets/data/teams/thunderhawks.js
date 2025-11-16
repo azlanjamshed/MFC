@@ -13,7 +13,7 @@ const thunderhawks = {
     players: [
         { id: 1, name: "Moshiar (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Nalanda (VC) ", yellowCards: 0, redCards: 0 },
-        { id: 3, name: " Tanmay (GK)", yellowCards: 0, redCards: 0 },
+        { id: 3, name: "Tanmay (GK)", yellowCards: 0, redCards: 0 },
         { id: 4, name: "Amrendra ", yellowCards: 0, redCards: 0 },
         { id: 5, name: "Aritra", yellowCards: 0, redCards: 0 },
         { id: 6, name: "Abhinash", yellowCards: 0, redCards: 0 },

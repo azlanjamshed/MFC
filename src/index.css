@@ -7,4 +7,5 @@ body {
   overflow: auto;
   /* Prevent scrolling */
   height: 100%;
+  background: black;
 }

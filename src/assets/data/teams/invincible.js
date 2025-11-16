@@ -12,8 +12,8 @@ const invincible = {
     goalconceeded: 3,
     players: [
         { id: 1, name: "Achintya (C) ", yellowCards: 0, redCards: 0 },
-        { id: 2, name: " Arindam (VC)", yellowCards: 0, redCards: 0 },
-        { id: 3, name: " Pappu (GK)", yellowCards: 0, redCards: 0 },
+        { id: 2, name: "Arindam (VC)", yellowCards: 0, redCards: 0 },
+        { id: 3, name: "Pappu (GK)", yellowCards: 0, redCards: 0 },
         { id: 4, name: "Piyush", yellowCards: 0, redCards: 0 },
         { id: 5, name: "Nawazish", yellowCards: 0, redCards: 0 },
         { id: 6, name: "Anurag", yellowCards: 0, redCards: 0 },
