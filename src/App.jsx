@@ -8,45 +8,37 @@ import Matches from "./pages/Matches";
 import Standings from "./pages/Standings";
 import Footer from "./components/Footer";
 import TeamDetail from "./pages/TeamDetail";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    // <>
-    //   <Navbar />
-    //   <div className="h-[80%] ">
-    //     <Routes>
-    //       <Route path="/" element={<Home />} />
-    //       <Route path="/teams" element={<Team />} />
-    //       <Route path="/matches" element={<Matches />} />
-    //       <Route path="/standings" element={<Standings />} />
-    //     </Routes>
-    //   </div>
-    // </>
+    <>
+      <ScrollToTop />
+      <div className="h-screen flex flex-col overflow-hidden">
+        {/* Navbar: 10% of screen height */}
+        <header className="h-[7%] shrink-0">
+          <Navbar />
+        </header>
 
-    <div className="h-screen flex flex-col overflow-hidden">
-      {/* Navbar: 10% of screen height */}
-      <header className="h-[7%] shrink-0">
-        <Navbar />
-      </header>
+        {/* Main content: 85% of screen height */}
+        <main className="min-h-screen overflow-auto ">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/teams" element={<Team />} />
+            <Route path="/teams/:slug" element={<TeamDetail />} />
+            <Route path="/matches" element={<Matches />} />
+            <Route path="/standings" element={<Standings />} />
+          </Routes>
+        </main>
 
-      {/* Main content: 85% of screen height */}
-      <main className="min-h-screen overflow-auto ">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/teams" element={<Team />} />
-          <Route path="/teams/:slug" element={<TeamDetail />} />
-          <Route path="/matches" element={<Matches />} />
-          <Route path="/standings" element={<Standings />} />
-        </Routes>
-      </main>
-
-      {/* Footer: 5% of screen height */}
-      <footer className="z-10  h-[5%] fixed bottom-0 left-0 w-full    ">
-        <Footer />
-      </footer>
-    </div>
+        {/* Footer: 5% of screen height */}
+        <footer className="z-10  h-[5%] fixed bottom-0 left-0 w-full    ">
+          <Footer />
+        </footer>
+      </div>
+    </>
   );
 }
 
