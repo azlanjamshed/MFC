@@ -25,14 +25,8 @@ const Navbar = () => {
         role="navigation"
         aria-label="Main navigation"
       >
-        {/* <nav
-        className={`w-full flex items-center justify-between px-4 sm:px-6 md:px-12 py-3 transition-all  bg-zinc-500`}
-        role="navigation"
-        aria-label="Main navigation"
-      > */}
-
         {/* Brand */}
-        <div className="flex items-center gap-3">
+        <NavLink className="flex items-center gap-3" to="/">
           <div className="shrink-0">
             {/* Replace with <img src={logo} /> if you have a logo */}
             <div className="w-10 h-10 rounded-md bg-amber-400 flex items-center justify-center font-black text-[#111]">
@@ -42,7 +36,7 @@ const Navbar = () => {
           <h1 className="text-sm sm:text-base md:text-xl lg:text-2xl font-extrabold text-amber-400">
             MAKAUT SUPER LEAGUE
           </h1>
-        </div>
+        </NavLink>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-6">

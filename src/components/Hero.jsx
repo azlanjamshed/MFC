@@ -33,7 +33,7 @@ import logo from "../assets/logo.png";
 const Hero = () => {
   return (
     <section
-      className="relative w-full h-[824px] overflow-hidden bg-center bg-cover bg-no-repeat flex items-center justify-center"
+      className="relative w-full min-h-screen bg-center bg-cover overflow-hidden  bg-no-repeat flex items-center justify-center"
       style={{ backgroundImage: `url(${hero})` }}
     >
       {/* Optional overlay for better contrast */}

@@ -86,7 +86,7 @@ const Standings = () => {
   );
 
   return (
-    <section className="min-h-full bg-gradient-to-b from-white to-sky-50 py-8 px-4">
+    <section className="min-h-full bg-gradient-to-b from-white to-sky-300 pb-25 md:pb-10 px-4 ">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <header className="mb-6 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3">

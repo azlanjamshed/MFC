@@ -29,7 +29,7 @@ const Footer = () => (
       Built with ❤️ by{" "}
       <span className="text-amber-400 font-semibold">Gen 2De</span>
     </p> */}
-    <div className="w-full flex items-center justify-between">
+    <div className="w-full flex items-center justify-between  px-6 md:px-12  bg-[#272626]  ">
       {/* Left side — Copyright */}
       <p className="text-gray-400 text-sm">
         © {new Date().getFullYear()}{" "}

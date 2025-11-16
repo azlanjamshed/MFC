@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Matches from "./pages/Matches";
 import Standings from "./pages/Standings";
 import Footer from "./components/Footer";
+import TeamDetail from "./pages/TeamDetail";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,17 +33,18 @@ function App() {
       </header>
 
       {/* Main content: 85% of screen height */}
-      <main className="h-[90%] overflow-auto">
+      <main className="min-h-screen overflow-auto pb-[10%] md:pb-[5%]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/teams" element={<Team />} />
+          <Route path="/teams/:slug" element={<TeamDetail />} />
           <Route path="/matches" element={<Matches />} />
           <Route path="/standings" element={<Standings />} />
         </Routes>
       </main>
 
       {/* Footer: 5% of screen height */}
-      <footer className="h-[5%] shrink-0">
+      <footer className="z-10 h-[5%] fixed bottom-0 left-0 w-full   ">
         <Footer />
       </footer>
     </div>
