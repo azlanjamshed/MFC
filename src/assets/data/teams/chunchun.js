@@ -8,8 +8,8 @@ const chunchun = {
     won: 0,
     lost: 0,
     draw: 4,
-    goalScored: 4,
-    goalconceeded: 3,
+    goalScored: 0,
+    goalconceeded: 0,
     players: [
         { id: 1, name: "Parthib (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Tomojit (VC)", yellowCards: 0, redCards: 0 },

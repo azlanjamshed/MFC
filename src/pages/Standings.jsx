@@ -371,9 +371,8 @@ import teamsData from "../assets/data/teams/index";
 import { computeFromTeams } from "../utils/standingsFromTeams";
 
 const Standings = () => {
-  // Automatically compute points: (win × 2) + (draw × 1)
   const table = useMemo(
-    () => computeFromTeams(teamsData, { winPoints: 2, drawPoints: 1 }),
+    () => computeFromTeams(teamsData, { winPoints: 3, drawPoints: 1 }),
     [teamsData]
   );
 
@@ -386,9 +385,9 @@ const Standings = () => {
             <h1 className="text-3xl sm:text-4xl font-extrabold text-amber-400 leading-tight">
               League Standings
             </h1>
-            <p className="mt-1 text-sm text-gray-300">
+            {/* <p className="mt-1 text-sm text-gray-300">
               Points = (Wins × 2) + (Draws × 1)
-            </p>
+            </p> */}
           </div>
 
           {/* Legend */}

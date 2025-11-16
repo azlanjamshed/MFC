@@ -2,14 +2,14 @@ import logo from "../logo"
 
 const zandaGadu = {
     id: 1,
-    slug: "zandaGadu",
-    name: "Zanda Gadu",
+    slug: "zandaGaru",
+    name: "Zanda Garu",
     logo: logo.zandaGadu,
     won: 0,
     lost: 0,
     draw: 4,
-    goalScored: 4,
-    goalconceeded: 3,
+    goalScored: 0,
+    goalconceeded: 1,
     players: [
         { id: 1, name: "Anish (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Ankan (VC) ", yellowCards: 0, redCards: 0 },

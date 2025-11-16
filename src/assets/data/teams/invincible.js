@@ -8,8 +8,8 @@ const invincible = {
     won: 0,
     lost: 0,
     draw: 4,
-    goalScored: 4,
-    goalconceeded: 3,
+    goalScored: 1,
+    goalconceeded: 1,
     players: [
         { id: 1, name: "Achintya (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Arindam (VC)", yellowCards: 0, redCards: 0 },
