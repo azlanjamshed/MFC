@@ -43,7 +43,7 @@ function App() {
       </main>
 
       {/* Footer: 5% of screen height */}
-      <footer className="z-10 h-[5%] fixed bottom-0 left-0 w-full   ">
+      <footer className="z-10  h-[5%] fixed bottom-0 left-0 w-full    ">
         <Footer />
       </footer>
     </div>
