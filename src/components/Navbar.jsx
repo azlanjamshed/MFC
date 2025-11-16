@@ -106,7 +106,9 @@ const Navbar = () => {
               to={l.to}
               className={({ isActive }) =>
                 `block w-full ${
-                  isActive ? "bg-amber-400 text-[#111]" : "hover:bg-white/10 "
+                  isActive
+                    ? "bg-amber-400 text-black"
+                    : "hover:bg-white/10 text-white"
                 } rounded-md px-3 py-2 text-sm font-semibold`
               }
               onClick={() => setOpen(false)}
