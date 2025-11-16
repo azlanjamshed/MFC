@@ -28,12 +28,12 @@ function App() {
 
     <div className="h-screen flex flex-col overflow-hidden">
       {/* Navbar: 10% of screen height */}
-      <header className="h-[10%] shrink-0">
+      <header className="h-[7%] shrink-0">
         <Navbar />
       </header>
 
       {/* Main content: 85% of screen height */}
-      <main className="min-h-screen overflow-auto pb-[10%] md:pb-[5%]">
+      <main className="min-h-screen overflow-auto ">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/teams" element={<Team />} />

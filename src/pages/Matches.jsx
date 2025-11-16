@@ -39,7 +39,7 @@ const Matches = () => {
   }, {});
 
   return (
-    <section className="min-h-screen bg-gradient-to-b from-white to-sky-50 text-gray-900 py-20 px-5 md:px-12 ">
+    <section className="min-h-screen bg-gradient-to-b from-white to-sky-50 text-gray-900 pt-10 pb-30  px-5 md:px-12 md:pb-40 ">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <header className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-10">

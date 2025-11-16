@@ -37,14 +37,15 @@ const Hero = () => {
       style={{ backgroundImage: `url(${hero})` }}
     >
       {/* Optional overlay for better contrast */}
-      <div className="absolute inset-0 bg-black/40 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-black/40 pointer-events-none flex items-center justify-center">
+        <img
+          className="relative z-10 w-[200px] sm:w-[250px] md:w-[300px] lg:w-[350px] select-none h-full  object-contain"
+          src={logo}
+          alt="Logo"
+        />
+      </div>
 
       {/* Logo */}
-      <img
-        className="relative z-10 w-[200px] sm:w-[250px] md:w-[300px] lg:w-[350px] select-none"
-        src={logo}
-        alt="Logo"
-      />
     </section>
   );
 };

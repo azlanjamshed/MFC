@@ -1,17 +1,19 @@
-
+import logo from "../logo"
 
 const invincible = {
     id: 1,
     slug: "invincible",
     name: "Invincible",
-    logo: "",
+    logo: logo.invincible,
     won: 0,
     lost: 0,
     draw: 4,
+    goalScored: 4,
+    goalconceeded: 3,
     players: [
         { id: 1, name: "Achintya (C) ", yellowCards: 0, redCards: 0 },
-        { id: 2, name: "Supratik", yellowCards: 0, redCards: 0 },
-        { id: 3, name: "Arindam (VC)", yellowCards: 0, redCards: 0 },
+        { id: 2, name: " Arindam (VC)", yellowCards: 0, redCards: 0 },
+        { id: 3, name: " Pappu (GK)", yellowCards: 0, redCards: 0 },
         { id: 4, name: "Piyush", yellowCards: 0, redCards: 0 },
         { id: 5, name: "Nawazish", yellowCards: 0, redCards: 0 },
         { id: 6, name: "Anurag", yellowCards: 0, redCards: 0 },
@@ -24,7 +26,7 @@ const invincible = {
         { id: 13, name: "Koustav", yellowCards: 0, redCards: 0 },
         { id: 14, name: "Parimal", yellowCards: 0, redCards: 0 },
         { id: 15, name: "Ravi", yellowCards: 0, redCards: 0 },
-        { id: 16, name: "Pappu (GK)", yellowCards: 0, redCards: 0 },
+        { id: 16, name: "Supratik", yellowCards: 0, redCards: 0 },
         { id: 17, name: "Karrar", yellowCards: 0, redCards: 0 },
         { id: 18, name: "Subhajit", yellowCards: 0, redCards: 0 },
         { id: 19, name: "Tousif Jamal", yellowCards: 0, redCards: 0 },

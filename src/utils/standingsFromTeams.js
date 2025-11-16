@@ -1,12 +1,4 @@
-// src/utils/standingsFromTeams.js
 
-/**
- * computeFromTeams
- * - teams: array of team objects with fields: { name, won, lost, draw, players, logo, slug }
- * - options: { winPoints, drawPoints }  (defaults: 2, 1)
- *
- * Returns sorted array (pts desc, won desc, name asc) with pos and computed played/pts.
- */
 export function computeFromTeams(teams = [], options = { winPoints: 2, drawPoints: 1 }) {
     const { winPoints = 2, drawPoints = 1 } = options;
 
