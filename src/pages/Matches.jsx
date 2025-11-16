@@ -71,9 +71,9 @@ const Matches = () => {
             <h1 className="text-3xl md:text-4xl font-extrabold text-amber-400">
               Matches
             </h1>
-            <p className="text-gray-300 mt-1">
+            {/* <p className="text-gray-300 mt-1">
               Automatically tracked by date &amp; time
-            </p>
+            </p> */}
           </div>
 
           <div className="flex items-center gap-4 text-sm">
