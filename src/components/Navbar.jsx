@@ -52,7 +52,7 @@ const Navbar = () => {
             onClick={() => setOpen((s) => !s)}
             aria-expanded={open}
             aria-label={open ? "Close menu" : "Open menu"}
-            className="p-2 rounded-md inline-flex items-center justify-center hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-amber-400"
+            className="p-2 rounded-md inline-flex items-center justify-center  hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-amber-400"
           >
             <span className="sr-only">{open ? "Close menu" : "Open menu"}</span>
             {/* Hamburger / Close icon */}
@@ -69,6 +69,7 @@ const Navbar = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   d="M6 18L18 6M6 6l12 12"
+                  style={{ color: "white" }}
                 />
               </svg>
             ) : (
@@ -84,6 +85,7 @@ const Navbar = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   d="M4 6h16M4 12h16M4 18h16"
+                  style={{ color: "white" }}
                 />
               </svg>
             )}
