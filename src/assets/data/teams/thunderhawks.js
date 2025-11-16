@@ -3,7 +3,7 @@ import logo from "../logo"
 const thunderhawks = {
     id: 1,
     slug: "thunderhawks",
-    name: "Thunder Hawks",
+    name: "Thunder Hawks FC",
     logo: logo.thunderhawks,
     won: 1,
     lost: 0,

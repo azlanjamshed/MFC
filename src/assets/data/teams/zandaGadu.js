@@ -3,7 +3,7 @@ import logo from "../logo"
 const zandaGadu = {
     id: 1,
     slug: "zandaGaru",
-    name: "Zanda Garu",
+    name: "Zanda Garu FC",
     logo: logo.zandaGadu,
     won: 0,
     lost: 0,

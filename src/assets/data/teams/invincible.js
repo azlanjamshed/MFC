@@ -3,7 +3,7 @@ import logo from "../logo"
 const invincible = {
     id: 1,
     slug: "invincible",
-    name: "Invincible",
+    name: "The Invincibles",
     logo: logo.invincible,
     won: 0,
     lost: 0,

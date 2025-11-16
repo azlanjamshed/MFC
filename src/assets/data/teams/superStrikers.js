@@ -3,7 +3,7 @@ import logo from "../logo"
 const superStrikers = {
     id: 1,
     slug: "superStrikers",
-    name: "Super Strikers",
+    name: "Super Strikers FC",
     logo: logo.superStrikers,
     won: 0,
     lost: 1,
