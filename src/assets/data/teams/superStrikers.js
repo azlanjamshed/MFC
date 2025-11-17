@@ -9,7 +9,7 @@ const superStrikers = {
     lost: 2,
     draw: 3,
     goalScored: 0,
-    goalconceeded: 1,
+    goalconceeded: 2,
     players: [
         { id: 1, name: "Rit (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Ibnoon (GK)", yellowCards: 0, redCards: 0 },

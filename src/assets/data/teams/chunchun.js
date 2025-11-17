@@ -5,10 +5,10 @@ const chunchun = {
     slug: "chunchunMaru",
     name: "Chunchun Maru FC",
     logo: logo.chunchun,
-    won: 0,
+    won: 1,
     lost: 0,
     draw: 4,
-    goalScored: 0,
+    goalScored: 1,
     goalconceeded: 0,
     players: [
         { id: 1, name: "Parthib (C) ", yellowCards: 0, redCards: 0 },

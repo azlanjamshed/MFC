@@ -126,20 +126,21 @@ const matches = [
 
     // ───────────── 2025-11-18 ─────────────
     {
-        id: 13,
+        id: 17,
         date: "2025-11-18",
         time: "16:00",
-        teamA: getTeamBySlug("invincible"),
+        teamA: getTeamBySlug("chunchunMaru"),
         teamB: getTeamBySlug("thunderhawks"),
 
     },
     {
-        id: 14,
+        id: 18,
         date: "2025-11-18",
         time: "17:00",
-        teamA: getTeamBySlug("chunchunMaru"),
+        teamA: getTeamBySlug("superStrikers"),
         teamB: getTeamBySlug("zandaGaru"),
     },
+
 
     // ───────────── 2025-11-19 ─────────────
     {
@@ -158,19 +159,20 @@ const matches = [
     },
 
     // ───────────── 2025-11-20 ─────────────
+
     {
-        id: 17,
+        id: 13,
         date: "2025-11-20",
         time: "16:00",
-        teamA: getTeamBySlug("chunchunMaru"),
+        teamA: getTeamBySlug("invincible"),
         teamB: getTeamBySlug("thunderhawks"),
 
     },
     {
-        id: 18,
+        id: 14,
         date: "2025-11-20",
         time: "17:00",
-        teamA: getTeamBySlug("superStrikers"),
+        teamA: getTeamBySlug("chunchunMaru"),
         teamB: getTeamBySlug("zandaGaru"),
     },
     // ───────────── 2025-11-21 ─────────────

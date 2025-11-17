@@ -5,11 +5,11 @@ const zandaGadu = {
     slug: "zandaGaru",
     name: "Zanda Garu FC",
     logo: logo.zandaGadu,
-    won: 1,
+    won: 0,
     lost: 0,
     draw: 5,
     goalScored: 0,
-    goalconceeded: 1,
+    goalconceeded: 0,
     players: [
         { id: 1, name: "Anish (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Arnab (GK)", yellowCards: 0, redCards: 0 },
