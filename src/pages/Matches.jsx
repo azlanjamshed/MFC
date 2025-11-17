@@ -35,7 +35,7 @@ const getMatchStatus = (match) => {
 
   const now = new Date();
   const matchStart = new Date(`${match.date}T${match.time}`);
-  const matchEnd = new Date(matchStart.getTime() + 1 * 60 * 60 * 1000); // 2-hour window
+  const matchEnd = new Date(matchStart.getTime() + 60 * 60 * 1000); // 2-hour window
 
   if (now > matchEnd) return "completed";
   if (now >= matchStart && now <= matchEnd) return "ongoing";
