@@ -6,7 +6,7 @@ const superStrikers = {
     name: "Super Strikers FC",
     logo: logo.superStrikers,
     won: 0,
-    lost: 1,
+    lost: 2,
     draw: 3,
     goalScored: 0,
     goalconceeded: 1,
