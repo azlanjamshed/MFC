@@ -26,7 +26,9 @@ const Footer = () => (
       <p className="text-gray-400 text-sm hidden sm:block">
         © {new Date().getFullYear()}{" "}
         <span className="text-amber-400 font-semibold">
-          MAKAUT Super League
+          <a href="https://www.instagram.com/makautfc/" target="_blank">
+            MAKAUT Super League
+          </a>
         </span>
       </p>
 
