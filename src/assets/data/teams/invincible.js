@@ -10,6 +10,7 @@ const invincible = {
     draw: 5,
     goalScored: 1,
     goalconceeded: 1,
+    yellowCards: 2,
     players: [
         { id: 1, name: "Achintya (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Supratik (GK)", yellowCards: 0, redCards: 0 },

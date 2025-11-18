@@ -7,9 +7,10 @@ const chunchun = {
     logo: logo.chunchun,
     won: 1,
     lost: 0,
-    draw: 4,
+    draw: 5,
     goalScored: 1,
     goalconceeded: 0,
+    yellowCards: 0,
     players: [
         { id: 1, name: "Parthib (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Souvik (GK)", yellowCards: 0, redCards: 0 },

@@ -7,9 +7,10 @@ const thunderhawks = {
     logo: logo.thunderhawks,
     won: 1,
     lost: 0,
-    draw: 3,
+    draw: 4,
     goalScored: 2,
     goalconceeded: 1,
+    yellowCards: 0,
     players: [
         { id: 1, name: "Mosshiyar (C) ", yellowCards: 0, redCards: 0 },
         { id: 2, name: "Tanmay (GK)", yellowCards: 0, redCards: 0 },

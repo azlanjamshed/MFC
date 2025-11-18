@@ -31,3 +31,4 @@ export function computeFromTeams(teams = [], options = { winPoints: 2, drawPoint
 }
 
 export default computeFromTeams;
+
