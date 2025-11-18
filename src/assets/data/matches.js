@@ -129,17 +129,18 @@ const matches = [
         id: 17,
         date: "2025-11-18",
         time: "16:00",
-        teamA: getTeamBySlug("chunchunMaru"),
-        teamB: getTeamBySlug("thunderhawks"),
-
+        teamA: getTeamBySlug("superStrikers"),
+        teamB: getTeamBySlug("zandaGaru"),
     },
     {
         id: 18,
         date: "2025-11-18",
         time: "17:00",
-        teamA: getTeamBySlug("superStrikers"),
-        teamB: getTeamBySlug("zandaGaru"),
+        teamA: getTeamBySlug("chunchunMaru"),
+        teamB: getTeamBySlug("thunderhawks"),
+
     },
+
 
 
     // ───────────── 2025-11-19 ─────────────
