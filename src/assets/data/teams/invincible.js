@@ -6,10 +6,10 @@ const invincible = {
     name: "The Invincibles",
     logo: logo.invincible,
     won: 0,
-    lost: 0,
+    lost: 1,
     draw: 5,
     goalScored: 1,
-    goalconceeded: 1,
+    goalconceeded: 3,
     yellowCards: 2,
     players: [
         { id: 1, name: "Achintya (C) ", yellowCards: 0, redCards: 0 },

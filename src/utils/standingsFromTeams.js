@@ -1,6 +1,6 @@
 
-export function computeFromTeams(teams = [], options = { winPoints: 2, drawPoints: 1 }) {
-    const { winPoints = 2, drawPoints = 1 } = options;
+export function computeFromTeams(teams = [], options = { winPoints: 3, drawPoints: 1 }) {
+    const { winPoints = 3, drawPoints = 1 } = options;
 
     const computed = teams.map((t) => {
         const won = Number(t.won || 0);

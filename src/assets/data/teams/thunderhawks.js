@@ -6,10 +6,10 @@ const thunderhawks = {
     name: "Thunder Hawks FC",
     logo: logo.thunderhawks,
     won: 1,
-    lost: 0,
+    lost: 1,
     draw: 4,
     goalScored: 2,
-    goalconceeded: 1,
+    goalconceeded: 2,
     yellowCards: 0,
     players: [
         { id: 1, name: "Mosshiyar (C) ", yellowCards: 0, redCards: 0 },
