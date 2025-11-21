@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import teams from "../assets/data/teams/index"; // index.js that imports each team file
+import teams from "../assets/data/teams/index";
 
 const Teams = () => {
   return (

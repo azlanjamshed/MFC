@@ -175,6 +175,8 @@ const matches = [
         time: "16:00",
         teamA: getTeamBySlug("invincible"),
         teamB: getTeamBySlug("thunderhawks"),
+        scoreA: 0,
+        scoreB: 0,
 
     },
     {
@@ -183,6 +185,8 @@ const matches = [
         time: "17:00",
         teamA: getTeamBySlug("chunchunMaru"),
         teamB: getTeamBySlug("zandaGaru"),
+        scoreA: 0,
+        scoreB: 1,
     },
     // ───────────── 2025-11-21 ─────────────
     {
@@ -191,6 +195,8 @@ const matches = [
         time: "16:00",
         teamA: getTeamBySlug("zandaGaru"),
         teamB: getTeamBySlug("thunderhawks"),
+        scoreA: 0,
+        scoreB: 0,
 
     },
     {
@@ -199,6 +205,8 @@ const matches = [
         time: "17:00",
         teamA: getTeamBySlug("superStrikers"),
         teamB: getTeamBySlug("invincible"),
+        scoreA: 2,
+        scoreB: 0,
     },
 ];
 

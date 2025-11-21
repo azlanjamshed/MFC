@@ -7,7 +7,7 @@ const thunderhawks = {
     logo: logo.thunderhawks,
     won: 1,
     lost: 1,
-    draw: 4,
+    draw: 6,
     goalScored: 2,
     goalconceeded: 2,
     yellowCards: 0,

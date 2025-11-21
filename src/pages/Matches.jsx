@@ -2,7 +2,6 @@ import React from "react";
 import teamsLogos from "../assets/data/logo";
 import matches from "../assets/data/matches";
 
-// Helper to pull logo URL from either a team object or a team name/key
 const resolveLogo = (team) => {
   // if team is an object with logo, use it
   if (team && typeof team === "object") {
@@ -13,7 +12,7 @@ const resolveLogo = (team) => {
       teamsLogos.kolkata
     );
   }
-  // fallback: team is a string name -> use first word as key
+
   if (typeof team === "string") {
     const key = team.toLowerCase().split(" ")[0];
     return teamsLogos[key] || teamsLogos.kolkata;
@@ -21,7 +20,6 @@ const resolveLogo = (team) => {
   return teamsLogos.kolkata;
 };
 
-// Helper to get display name from team object or string
 const resolveName = (team) => {
   if (team && typeof team === "object")
     return team.name || team.slug || "Unknown";
@@ -29,7 +27,6 @@ const resolveName = (team) => {
   return "Unknown";
 };
 
-// Determine match status. If scores present => completed. Otherwise use date/time.
 const getMatchStatus = (match) => {
   if (match.scoreA != null && match.scoreB != null) return "completed";
 
@@ -49,12 +46,10 @@ const statusStyles = {
 };
 
 const Matches = () => {
-  // Sort matches by date/time
   const sorted = [...matches].sort(
     (a, b) => new Date(`${a.date}T${a.time}`) - new Date(`${b.date}T${b.time}`)
   );
 
-  // Group by date for display
   const grouped = sorted.reduce((acc, m) => {
     const d = m.date;
     if (!acc[d]) acc[d] = [];
@@ -71,9 +66,6 @@ const Matches = () => {
             <h1 className="text-3xl md:text-4xl font-extrabold text-amber-400">
               Matches
             </h1>
-            {/* <p className="text-gray-300 mt-1">
-              Automatically tracked by date &amp; time
-            </p> */}
           </div>
 
           <div className="flex items-center gap-4 text-sm">
@@ -88,7 +80,6 @@ const Matches = () => {
           </div>
         </header>
 
-        {/* Matches by Date */}
         {Object.keys(grouped).map((date) => (
           <div
             key={date}
@@ -128,7 +119,6 @@ const Matches = () => {
                       </div>
                     </div>
 
-                    {/* VS / Score & time */}
                     <div className="text-center flex flex-col items-center text-gray-300">
                       <div className="text-xs">{m.time}</div>
 
@@ -155,7 +145,6 @@ const Matches = () => {
                       />
                     </div>
 
-                    {/* Status */}
                     <span
                       className={`px-3 py-1 rounded-full text-xs font-semibold ${statusStyles[status]}`}
                     >

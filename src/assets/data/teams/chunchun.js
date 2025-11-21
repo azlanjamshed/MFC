@@ -6,10 +6,10 @@ const chunchun = {
     name: "Chunchun Maru FC",
     logo: logo.chunchun,
     won: 2,
-    lost: 0,
+    lost: 1,
     draw: 5,
     goalScored: 3,
-    goalconceeded: 0,
+    goalconceeded: 1,
     yellowCards: 0,
     players: [
         { id: 1, name: "Parthib (C) ", yellowCards: 0, redCards: 0 },

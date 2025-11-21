@@ -5,7 +5,7 @@ const superStrikers = {
     slug: "superStrikers",
     name: "Super Strikers FC",
     logo: logo.superStrikers,
-    won: 2,
+    won: 3,
     lost: 2,
     draw: 3,
     goalScored: 2,
