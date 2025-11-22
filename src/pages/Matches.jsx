@@ -241,11 +241,24 @@ const Matches = () => {
                         </div>
                       </div>
 
-                      <div className="text-center flex flex-col items-center text-gray-300">
+                      {/* <div className="text-center flex flex-col items-center text-gray-300">
                         <div className="text-xs text-gray-400">{m.match}</div>
                         <div className="text-sm font-bold text-amber-400">
                           VS
                         </div>
+                      </div> */}
+                      <div className="text-center flex flex-col items-center text-gray-300">
+                        <div className="text-xs">{m.time}</div>
+
+                        {status && m.scoreA != null && m.scoreB != null ? (
+                          <div className="text-xs font-bold text-amber-400">
+                            {m.scoreA}—{m.scoreB}
+                          </div>
+                        ) : (
+                          <div className="text-sm font-bold text-amber-400">
+                            VS
+                          </div>
+                        )}
                       </div>
 
                       {/* Team B */}
@@ -319,11 +332,24 @@ const Matches = () => {
                       </div>
                     </div>
 
-                    <div className="text-center flex flex-col items-center text-gray-300">
+                    {/* <div className="text-center flex flex-col items-center text-gray-300">
                       <div className="text-xs text-gray-400">Final</div>
                       <div className="text-lg font-extrabold text-amber-300">
                         VS
                       </div>
+                    </div> */}
+                    <div className="text-center flex flex-col items-center text-gray-300">
+                      <div className="text-xs">{m.time}</div>
+
+                      {status && m.scoreA != null && m.scoreB != null ? (
+                        <div className="text-xs font-bold text-amber-400">
+                          {m.scoreA}—{m.scoreB}
+                        </div>
+                      ) : (
+                        <div className="text-sm font-bold text-amber-400">
+                          VS
+                        </div>
+                      )}
                     </div>
 
                     {/* Team B */}
