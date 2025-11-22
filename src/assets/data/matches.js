@@ -221,7 +221,7 @@
 //     },
 //     {
 //         id: 22,
-//         match: "Final",
+//         match: "normal",
 //         date: "TBD",
 //         time: "17:00",
 //         teamA: getTeamBySlug("superStrikers"),
@@ -243,6 +243,7 @@ const matches = [
     // ───────────── 2025-11-10 ─────────────
     {
         id: 1,
+        match: "normal",
         date: "2025-11-10",
         time: "17:00",
         teamA: getTeamBySlug("thunderhawks"),
@@ -252,6 +253,7 @@ const matches = [
     },
     {
         id: 2,
+        match: "normal",
         date: "2025-11-10",
         time: "18:00",
         teamA: getTeamBySlug("chunchunMaru"),
@@ -263,6 +265,7 @@ const matches = [
     // ───────────── 2025-11-11 ─────────────
     {
         id: 3,
+        match: "normal",
         date: "2025-11-11",
         time: "17:00",
         teamA: getTeamBySlug("invincible"),
@@ -272,6 +275,7 @@ const matches = [
     },
     {
         id: 4,
+        match: "normal",
         date: "2025-11-11",
         time: "18:00",
         teamA: getTeamBySlug("zandaGaru"),
@@ -283,6 +287,7 @@ const matches = [
     // ───────────── 2025-11-12 ─────────────
     {
         id: 5,
+        match: "normal",
         date: "2025-11-12",
         time: "16:00",
         teamA: getTeamBySlug("superStrikers"),
@@ -292,6 +297,7 @@ const matches = [
     },
     {
         id: 6,
+        match: "normal",
         date: "2025-11-12",
         time: "17:00",
         teamA: getTeamBySlug("invincible"),
@@ -303,6 +309,7 @@ const matches = [
     // ───────────── 2025-11-13 ─────────────
     {
         id: 7,
+        match: "normal",
         date: "2025-11-13",
         time: "16:00",
         teamA: getTeamBySlug("superStrikers"),
@@ -312,6 +319,7 @@ const matches = [
     },
     {
         id: 8,
+        match: "normal",
         date: "2025-11-13",
         time: "17:00",
         teamA: getTeamBySlug("invincible"),
@@ -323,6 +331,7 @@ const matches = [
     // ───────────── 2025-11-14 ─────────────
     {
         id: 9,
+        match: "normal",
         date: "2025-11-14",
         time: "16:00",
         teamA: getTeamBySlug("superStrikers"),
@@ -332,6 +341,7 @@ const matches = [
     },
     {
         id: 10,
+        match: "normal",
         date: "2025-11-14",
         time: "17:00",
         teamA: getTeamBySlug("thunderhawks"),
@@ -343,6 +353,7 @@ const matches = [
     // ───────────── 2025-11-17 ─────────────
     {
         id: 11,
+        match: "normal",
         date: "2025-11-17",
         time: "16:00",
         teamA: getTeamBySlug("chunchunMaru"),
@@ -352,6 +363,7 @@ const matches = [
     },
     {
         id: 12,
+        match: "normal",
         date: "2025-11-17",
         time: "17:00",
         teamA: getTeamBySlug("zandaGaru"),
@@ -363,6 +375,7 @@ const matches = [
     // ───────────── 2025-11-18 ─────────────
     {
         id: 13,
+        match: "normal",
         date: "2025-11-18",
         time: "16:00",
         teamA: getTeamBySlug("superStrikers"),
@@ -372,6 +385,7 @@ const matches = [
     },
     {
         id: 14,
+        match: "normal",
         date: "2025-11-18",
         time: "17:00",
         teamA: getTeamBySlug("chunchunMaru"),
@@ -383,6 +397,7 @@ const matches = [
     // ───────────── 2025-11-19 ─────────────
     {
         id: 15,
+        match: "normal",
         date: "2025-11-19",
         time: "16:00",
         teamA: getTeamBySlug("superStrikers"),
@@ -392,6 +407,7 @@ const matches = [
     },
     {
         id: 16,
+        match: "normal",
         date: "2025-11-19",
         time: "17:00",
         teamA: getTeamBySlug("chunchunMaru"),
@@ -403,6 +419,7 @@ const matches = [
     // ───────────── 2025-11-20 ─────────────
     {
         id: 17,
+        match: "normal",
         date: "2025-11-20",
         time: "16:00",
         teamA: getTeamBySlug("invincible"),
@@ -412,6 +429,7 @@ const matches = [
     },
     {
         id: 18,
+        match: "normal",
         date: "2025-11-20",
         time: "17:00",
         teamA: getTeamBySlug("chunchunMaru"),
@@ -423,6 +441,7 @@ const matches = [
     // ───────────── 2025-11-21 ─────────────
     {
         id: 19,
+        match: "normal",
         date: "2025-11-21",
         time: "16:00",
         teamA: getTeamBySlug("zandaGaru"),
@@ -432,6 +451,7 @@ const matches = [
     },
     {
         id: 20,
+        match: "normal",
         date: "2025-11-21",
         time: "17:00",
         teamA: getTeamBySlug("superStrikers"),
@@ -452,7 +472,7 @@ const matches = [
         scoreB: null, // not played yet
     },
 
-    // ───────────── Knockout: Final ─────────────
+    // ───────────── Knockout: normal ─────────────
     {
         id: 22,
         match: "Final",
