@@ -371,10 +371,17 @@ const Matches = () => {
                       <span className="text-xs uppercase tracking-widest text-gray-400">
                         {m.match}
                       </span>
-                      <span className="text-sm text-gray-300">
-                        Date: {m.date === "TBD" ? "TBD" : m.date} •{" "}
-                        {m.time || "Time: TBD"}
-                      </span>
+
+                      {/* Date: {m.date === "TBD" ? "TBD" : m.date} •{" "}
+                        {m.time || "Time: TBD"} */}
+                      <h2>
+                        {" "}
+                        {new Date(m.date).toLocaleDateString(undefined, {
+                          weekday: "short",
+                          month: "short",
+                          day: "numeric",
+                        })}
+                      </h2>
                     </div>
 
                     {/* Middle: Teams */}
