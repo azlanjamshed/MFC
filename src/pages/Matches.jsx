@@ -380,7 +380,8 @@ const Matches = () => {
                           weekday: "short",
                           month: "short",
                           day: "numeric",
-                        })}
+                        })}{" "}
+                        • {m.time || "Time: TBD"}
                       </h2>
                     </div>
 
